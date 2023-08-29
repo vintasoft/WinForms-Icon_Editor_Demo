@@ -10,7 +10,7 @@ This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.h
 
 
 ## Screenshot
-<img src="vintasoft-icon-editor-demo.jpg" alt="VintaSoft Icon Editor Demo">
+<img src="vintasoft-icon-editor-demo.jpg" title="VintaSoft Icon Editor Demo">
 
 
 ## Usage
