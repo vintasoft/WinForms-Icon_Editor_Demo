@@ -250,7 +250,7 @@ namespace IconEditorDemo
         #region 'File' menu
 
         /// <summary>
-        /// Handles the Click event of NewToolStripMenuItem object.
+        /// Handles the Click event of newToolStripMenuItem object.
         /// </summary>
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -263,7 +263,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of OpenToolStripMenuItem object.
+        /// Handles the Click event of openToolStripMenuItem object.
         /// </summary>
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -280,7 +280,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of AddPageToolStripMenuItem object.
+        /// Handles the Click event of addPageToolStripMenuItem object.
         /// </summary>
         private void addPageToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -312,7 +312,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SaveToolStripMenuItem object.
+        /// Handles the Click event of saveToolStripMenuItem object.
         /// </summary>
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -342,7 +342,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SaveAsToolStripMenuItem object.
+        /// Handles the Click event of saveAsToolStripMenuItem object.
         /// </summary>
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -368,7 +368,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SaveToToolStripMenuItem object.
+        /// Handles the Click event of saveToToolStripMenuItem object.
         /// </summary>
         private void saveToToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -392,7 +392,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CloseToolStripMenuItem object.
+        /// Handles the Click event of closeToolStripMenuItem object.
         /// </summary>
         private void closeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -401,7 +401,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ExitToolStripMenuItem object.
+        /// Handles the Click event of exitToolStripMenuItem object.
         /// </summary>
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -417,7 +417,7 @@ namespace IconEditorDemo
         #region 'View' menu
 
         /// <summary>
-        /// Handles the Click event of ThumbnailViewerSettingsToolStripMenuItem object.
+        /// Handles the Click event of thumbnailViewerSettingsToolStripMenuItem object.
         /// </summary>
         private void thumbnailViewerSettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -428,7 +428,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ImageViewerSettingsToolStripMenuItem object.
+        /// Handles the Click event of imageViewerSettingsToolStripMenuItem object.
         /// </summary>
         private void imageViewerSettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -445,7 +445,7 @@ namespace IconEditorDemo
         #region 'Help' menu
 
         /// <summary>
-        /// Handles the Click event of AboutToolStripMenuItem object.
+        /// Handles the Click event of aboutToolStripMenuItem object.
         /// </summary>
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -462,7 +462,7 @@ namespace IconEditorDemo
         #region Image Viewer
 
         /// <summary>
-        /// Handles the MouseDown event of ImageViewer1 object.
+        /// Handles the MouseDown event of imageViewer1 object.
         /// </summary>
         private void imageViewer1_MouseDown(object sender, MouseEventArgs e)
         {
@@ -470,7 +470,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the MouseMove event of ImageViewer1 object.
+        /// Handles the MouseMove event of imageViewer1 object.
         /// </summary>
         private void imageViewer1_MouseMove(object sender, MouseEventArgs e)
         {
@@ -478,7 +478,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the MouseUp event of ImageViewer1 object.
+        /// Handles the MouseUp event of imageViewer1 object.
         /// </summary>
         private void imageViewer1_MouseUp(object sender, MouseEventArgs e)
         {
@@ -486,7 +486,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the MouseLeave event of ImageViewer1 object.
+        /// Handles the MouseLeave event of imageViewer1 object.
         /// </summary>
         private void imageViewer1_MouseLeave(object sender, EventArgs e)
         {
@@ -500,7 +500,7 @@ namespace IconEditorDemo
         #region Thumbnail Viewer
 
         /// <summary>
-        /// Handles the ImageCollectionChanged event of Images property of ThumbnailViewer1 object.
+        /// Handles the Images_ImageCollectionChanged event of thumbnailViewer1 object.
         /// </summary>
         private void thumbnailViewer1_Images_ImageCollectionChanged(object sender, ImageCollectionChangeEventArgs e)
         {
@@ -552,7 +552,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the FocusedIndexChanged event of ThumbnailViewer1 object.
+        /// Handles the FocusedIndexChanged event of thumbnailViewer1 object.
         /// </summary>
         private void thumbnailViewer1_FocusedIndexChanged(object sender, FocusedIndexChangedEventArgs e)
         {
@@ -564,7 +564,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the ThumbnailPainting event of ThumbnailViewer1 object.
+        /// Handles the ThumbnailPainting event of thumbnailViewer1 object.
         /// </summary>
         private void thumbnailViewer1_ThumbnailPainting(object sender, ThumbnailPaintEventArgs e)
         {
@@ -617,7 +617,7 @@ namespace IconEditorDemo
         #region Drawing
 
         /// <summary>
-        /// Handles the DoubleClick event of LeftColorPanel object.
+        /// Handles the DoubleClick event of leftColorPanel object.
         /// </summary>
         private void leftColorPanel_DoubleClick(object sender, EventArgs e)
         {
@@ -626,7 +626,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the DoubleClick event of RightColorPanel object.
+        /// Handles the DoubleClick event of rightColorPanel object.
         /// </summary>
         private void rightColorPanel_DoubleClick(object sender, EventArgs e)
         {
@@ -635,7 +635,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SwapColorsButton object.
+        /// Handles the Click event of swapColorsButton object.
         /// </summary>
         private void swapColorsButton_Click(object sender, EventArgs e)
         {
@@ -653,7 +653,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SetLeftColorTransparentButton object.
+        /// Handles the Click event of setLeftColorTransparentButton object.
         /// </summary>
         private void setLeftColorTransparentButton_Click(object sender, EventArgs e)
         {
@@ -663,7 +663,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SetRightColorTransparentButton object.
+        /// Handles the Click event of setRightColorTransparentButton object.
         /// </summary>
         private void setRightColorTransparentButton_Click(object sender, EventArgs e)
         {
@@ -678,7 +678,7 @@ namespace IconEditorDemo
         #region Cursor icon
 
         /// <summary>
-        /// Handles the ValueChanged event of HotspotXNumericUpDown object.
+        /// Handles the ValueChanged event of hotspotXNumericUpDown object.
         /// </summary>
         private void hotspotXNumericUpDown_ValueChanged(object sender, EventArgs e)
         {
@@ -694,7 +694,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the ValueChanged event of HotspotYNumericUpDown object.
+        /// Handles the ValueChanged event of hotspotYNumericUpDown object.
         /// </summary>
         private void hotspotYNumericUpDown_ValueChanged(object sender, EventArgs e)
         {
@@ -712,7 +712,7 @@ namespace IconEditorDemo
         #region Palette
 
         /// <summary>
-        /// Handles the PaletteChanged event of PagePaletteViewer object.
+        /// Handles the PaletteChanged event of pagePaletteViewer object.
         /// </summary>
         private void pagePaletteViewer_PaletteChanged(object sender, EventArgs e)
         {
@@ -721,7 +721,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the MouseClick event of PagePaletteViewer object.
+        /// Handles the MouseClick event of pagePaletteViewer object.
         /// </summary>
         private void pagePaletteViewer_MouseClick(object sender, MouseEventArgs e)
         {
@@ -752,7 +752,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ChangeSelectedColorButton object.
+        /// Handles the Click event of changeSelectedColorButton object.
         /// </summary>
         private void changeSelectedColorButton_Click(object sender, EventArgs e)
         {
@@ -774,7 +774,7 @@ namespace IconEditorDemo
         #region Viewer Tool Strip
 
         /// <summary>
-        /// Handles the PageIndexChanged event of ViewerToolStrip object.
+        /// Handles the PageIndexChanged event of viewerToolStrip object.
         /// </summary>
         private void viewerToolStrip_PageIndexChanged(object sender, PageIndexChangedEventArgs e)
         {

@@ -111,7 +111,7 @@ namespace IconEditorDemo
         #region UI
 
         /// <summary>
-        /// Handles the Click event of SelectImageButton object.
+        /// Handles the Click event of selectImageButton object.
         /// </summary>
         private void selectImageButton_Click(object sender, EventArgs e)
         {
@@ -141,7 +141,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ButtonOk object.
+        /// Handles the Click event of buttonOk object.
         /// </summary>
         private void buttonOk_Click(object sender, EventArgs e)
         {
@@ -392,7 +392,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CancelButton object.
+        /// Handles the Click event of cancelButton object.
         /// </summary>
         private void cancelButton_Click(object sender, EventArgs e)
         {
@@ -400,7 +400,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of EmptyPageRadioButton object.
+        /// Handles the CheckedChanged event of emptyPageRadioButton object.
         /// </summary>
         private void emptyPageRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -408,7 +408,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of PageWithImageRadioButton object.
+        /// Handles the CheckedChanged event of pageWithImageRadioButton object.
         /// </summary>
         private void pageWithImageRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -416,7 +416,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of CustomSizeRadioButton object.
+        /// Handles the CheckedChanged event of customSizeRadioButton object.
         /// </summary>
         private void customSizeRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -424,7 +424,7 @@ namespace IconEditorDemo
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of Bpp32RadioButton object.
+        /// Handles the CheckedChanged event of bpp32RadioButton object.
         /// </summary>
         private void bpp32RadioButton_CheckedChanged(object sender, EventArgs e)
         {
