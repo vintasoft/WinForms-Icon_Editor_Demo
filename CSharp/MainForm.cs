@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Text;
@@ -187,6 +188,7 @@ namespace IconEditorDemo
         /// <summary>
         /// Gets or sets a value indicating whether icon file is loading.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal bool IsIconFileLoading
         {
             get
@@ -204,6 +206,7 @@ namespace IconEditorDemo
         /// <summary>
         /// Gets or sets a value indicating whether icon file is saving.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal bool IsIconFileSaving
         {
             get
@@ -221,6 +224,7 @@ namespace IconEditorDemo
         /// <summary>
         /// Gets or sets a value indicating whether icon file is changing.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal bool IsIconFileChanging
         {
             get
