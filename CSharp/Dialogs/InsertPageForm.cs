@@ -7,8 +7,8 @@ using Vintasoft.Imaging.ImageColors;
 using Vintasoft.Imaging.ImageProcessing;
 using Vintasoft.Imaging.ImageProcessing.Color;
 
-using DemosCommonCode;
-using DemosCommonCode.Imaging;
+using CommonCode;
+using CommonCode.Imaging;
 
 namespace IconEditorDemo
 {

@@ -1,4 +1,4 @@
-namespace IconEditorDemo
+﻿namespace IconEditorDemo
 {
     partial class InsertPageForm
     {
@@ -57,7 +57,7 @@ namespace IconEditorDemo
             this.typeGroupBox = new System.Windows.Forms.GroupBox();
             this.cursorRadioButton = new System.Windows.Forms.RadioButton();
             this.iconRadioButton = new System.Windows.Forms.RadioButton();
-            this.backgroundColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.backgroundColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             ((System.ComponentModel.ISupportInitialize)(this.insertIndexNumericUpDown)).BeginInit();
             this.colorDepthGroupBox.SuspendLayout();
             this.sizeGroupBox.SuspendLayout();
@@ -440,6 +440,6 @@ namespace IconEditorDemo
         private System.Windows.Forms.GroupBox typeGroupBox;
         private System.Windows.Forms.RadioButton cursorRadioButton;
         private System.Windows.Forms.RadioButton iconRadioButton;
-        private DemosCommonCode.CustomControls.ColorPanelControl backgroundColorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl backgroundColorPanelControl;
     }
 }

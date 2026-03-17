@@ -1,4 +1,4 @@
-namespace IconEditorDemo
+﻿namespace IconEditorDemo
 {
     partial class MainForm
     {
@@ -74,7 +74,7 @@ namespace IconEditorDemo
             this.rightColorPanel = new System.Windows.Forms.Panel();
             this.swapColorsButton = new System.Windows.Forms.Button();
             this.saveIcoFileDialog = new System.Windows.Forms.SaveFileDialog();
-            this.viewerToolStrip = new DemosCommonCode.Imaging.ImageViewerToolStrip();
+            this.viewerToolStrip = new CommonCode.Imaging.ImageViewerToolStrip();
             this.mainMenu.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -528,7 +528,7 @@ namespace IconEditorDemo
             this.viewerToolStrip.UseImageViewerImages = false;
             this.viewerToolStrip.OpenFile += new System.EventHandler(this.openToolStripMenuItem_Click);
             this.viewerToolStrip.SaveFile += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
-            this.viewerToolStrip.PageIndexChanged += new System.EventHandler<DemosCommonCode.Imaging.PageIndexChangedEventArgs>(this.viewerToolStrip_PageIndexChanged);
+            this.viewerToolStrip.PageIndexChanged += new System.EventHandler<CommonCode.Imaging.PageIndexChangedEventArgs>(this.viewerToolStrip_PageIndexChanged);
             // 
             // MainForm
             // 
@@ -571,7 +571,7 @@ namespace IconEditorDemo
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openIcoFileDialog;
         private System.Windows.Forms.StatusStrip statusStrip1;
-        private DemosCommonCode.Imaging.ImageViewerToolStrip viewerToolStrip;
+        private CommonCode.Imaging.ImageViewerToolStrip viewerToolStrip;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private Vintasoft.Imaging.UI.ThumbnailViewer thumbnailViewer1;
         private Vintasoft.Imaging.UI.ImageViewer imageViewer1;

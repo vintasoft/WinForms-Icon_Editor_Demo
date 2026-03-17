@@ -12,8 +12,8 @@ using Vintasoft.Imaging.Codecs.ImageFiles.Ico;
 using Vintasoft.Imaging.ImageColors;
 using Vintasoft.Imaging.UI;
 
-using DemosCommonCode;
-using DemosCommonCode.Imaging;
+using CommonCode;
+using CommonCode.Imaging;
 
 namespace IconEditorDemo
 {
